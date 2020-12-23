@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home1"
+            android:icon="@drawable/home"
+            android:title="home" />
+        <item
+            android:id="@+id/addAdmin"
+            android:icon="@drawable/add_user"
+           android:title="add new Admin" />
+
+        <item
+            android:id="@+id/ViewProducts"
+            android:icon="@drawable/view"
+            android:title="ViewProducts"/>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="logout"/>
+
+
+
+
+    </group>
+</menu>

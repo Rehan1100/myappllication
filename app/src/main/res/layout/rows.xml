@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="198dp"
+    android:layout_marginTop="1dp"
+    android:background="@color/green_200">
+
+    <LinearLayout
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:background="@color/green_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white">
+
+            <ImageView
+                android:id="@+id/ProductImage"
+                android:layout_width="225dp"
+                android:layout_marginLeft="2dp"
+                android:layout_height="156dp"
+                android:layout_marginTop="6dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo"
+                >
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="231dp"
+                android:layout_marginLeft="251dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="22dp"
+                android:background="@color/white"
+                android:paddingLeft="22dp"
+                android:textColor="@color/blackdark"
+                android:textSize="24dp" />
+
+
+            <View
+                android:layout_width="180dp"
+                android:layout_height="2px"
+                android:layout_marginTop="62dp"
+                android:layout_marginLeft="230dp"
+                android:background="@color/green_200"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/click"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/Discreption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="232dp"
+                android:layout_marginLeft="251dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="90dp"
+                android:background="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="22dp"
+                android:paddingTop="2dp"
+                android:textColor="@color/blackdark"
+                android:textSize="14dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/click"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
